@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a global font and background color */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  line-height: 1.6;
+}
+
+/* Container styling */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; 
+}
+
+/* Logo Styling */
+.img-fluid {
+  max-width: 255px; 
+  margin: 0 auto 20px; 
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Form controls */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #f903e0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #f903e0;
+}
+
+/* List items */
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4cqw;
+  margin-bottom: 10px;
+}
+
+/* Badges */
+.badge-primary {
+  background-color: #f903e0;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 40px;
+}

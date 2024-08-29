@@ -17,6 +17,9 @@ const ExpenseForm = ({ addExpense }) => {
 
   return (
     <form onSubmit={handleSubmit} className="mb-4">
+      <div className="text-center mb-4">
+        <img src="/logo.png" alt="Expense" className="img-fluid" />
+      </div>
       <div className="form-group">
         <label htmlFor="name">Expense Name</label>
         <input
@@ -37,7 +40,7 @@ const ExpenseForm = ({ addExpense }) => {
           onChange={(e) => setAmount(e.target.value)}
         />
       </div>
-      <button type="submit" className="btn-primary">Add Expense</button>
+      <button type="submit" className="btn btn-primary">Add Expense</button>
     </form>
   );
 };
