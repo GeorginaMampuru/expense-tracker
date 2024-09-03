@@ -28,6 +28,7 @@ const ExpenseForm = ({ addExpense }) => {
           id="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
+           placeholder="Enter Expense Name"
         />
       </div>
       <div className="form-group">
@@ -38,6 +39,7 @@ const ExpenseForm = ({ addExpense }) => {
           id="amount"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
+           placeholder="Enter amount"
         />
       </div>
       <button type="submit" className="btn btn-primary">Add Expense</button>
