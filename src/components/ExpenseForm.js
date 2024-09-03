@@ -19,6 +19,9 @@ const ExpenseForm = ({ addExpense }) => {
     <form onSubmit={handleSubmit} className="mb-4">
       <div className="form-group">
         <label htmlFor="name">Expense Name</label>
+        <div className="text-center mb-4">
+        <img src="/logo.png" alt="Expense" className="img-fluid" />
+      </div>
         <input
           type="text"
           className="form-control"
